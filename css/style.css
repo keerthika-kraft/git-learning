@@ -1,0 +1,242 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F2F4F7;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.container{
+    padding: 0px 12px 0px 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav{
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    display: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+nav a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+a.primaryButton{
+    padding: 10px 18px;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.menuToggle{
+    color: #344054;
+    font-size: 28px;
+}
+section{
+    padding: 64px 0px;
+}
+.headerSection{
+    margin-top: 72px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.headerSection .container{
+    flex-direction: column;
+}
+.headingContent h5{
+    color: #7F56D9;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.headingContent h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 16px;
+}
+
+.headerSection p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #667085;
+}
+.headingContent{
+    width:100%;
+}
+.matrixSection{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background: #F9FAFB;
+}
+.matrixSection .container{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.matrixSection .headingContent h2{
+    font-size: 30px;
+    line-height: 38px;
+}
+.matrixSection .container .metricContent > p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #667085;
+}
+.metricContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.metricItem h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #7F56D9;
+}
+.metricItem p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+.metricImage{
+    margin-top: 48px;
+}
+.metricImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

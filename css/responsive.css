@@ -1,0 +1,66 @@
+
+ @media (min-width: 768px) {
+ 	.menuToggle{
+ 		display: none;
+ 	}
+ 	.container{
+ 		padding: 0px 32px;
+		max-width: 1280px;
+		margin: 0 auto
+ 	}
+ 	section{
+ 		padding: 96px 0px;
+ 	}
+ 	header{
+ 		height: 80px;
+ 	}
+ 	nav{
+    	display: flex;
+	    position: static;
+	    flex-direction: row;
+	    width: 100%;
+	    flex-shrink: 1;
+
+ 	}
+ 	.mainLogo{
+ 		margin-right: 40px;
+ 	}
+	nav ul {
+		flex-direction: row;
+		gap:32px;
+	}
+	.CTAButton{
+		margin-left: auto;
+	}
+	.headingContent h5{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.headingContent h2{
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.headerSection p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.matrixSection .metricContentFull{
+		flex-direction: row-reverse;
+		gap: 96px;
+		align-items: stretch;
+	}
+	.matrixSection .container .metricContent > p{
+	   display: none;
+	}
+	.metricImage{
+		margin: 0;
+	}
+	.metricContent{
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+	.metricItem{
+		width: calc(50% - 10px);
+	}
+
+}
